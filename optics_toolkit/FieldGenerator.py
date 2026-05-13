@@ -4,11 +4,10 @@
 import numpy as np
 from scipy.special import genlaguerre
 
-from .Constants import *
-from .Dispersion import *
-from .FieldContainers import *
-from .Materials import *
-from .Miscellanea import *
+from .Constants import Constants
+from .FieldContainers import Sampling, Domains, MeshTransversalField
+from .Materials import Material
+from .Miscellanea import Miscellanea
 
 class FieldGenerator: 
     @staticmethod

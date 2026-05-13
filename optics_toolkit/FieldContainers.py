@@ -7,13 +7,13 @@ import matplotlib.colors as colours
 from matplotlib.gridspec import GridSpec
 import matplotlib.patches as patches
 from enum import Enum
+from abc import ABC, abstractmethod
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from scipy.interpolate import RegularGridInterpolator, griddata
 
-from .Constants import *
-from .Dispersion import *
-from .Materials import *
-from .Miscellanea import *
+from .Constants import Constants
+from .Materials import Material
+from .Miscellanea import Miscellanea, Defaults
 
 class Domains(Enum): 
     X = 1

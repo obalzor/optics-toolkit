@@ -6,8 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.tri as tri
 from scipy.interpolate import griddata
 
-from .Dispersion import *
-from .FieldContainers import *
+from .FieldContainers import Domains, FieldContainer, RegularTransversalField, RegularElectricField, MeshTransversalField, MeshElectricField
 
 class FourierTransforms: 
     @staticmethod

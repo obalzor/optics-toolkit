@@ -3,7 +3,7 @@
 
 import numpy as np
 
-from .Constants import *
+from .Constants import Constants
 
 class Miscellanea:
     @staticmethod

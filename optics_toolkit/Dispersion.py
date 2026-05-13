@@ -4,7 +4,7 @@
 import numpy as np
 from abc import ABC, abstractmethod
 
-from customlib.Constants import *
+from customlib.Constants import Constants
 
 class DispersionCurve(ABC): 
     @property

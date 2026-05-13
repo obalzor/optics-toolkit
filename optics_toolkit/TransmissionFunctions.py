@@ -5,7 +5,7 @@ import numpy as np
 import copy
 
 from .FieldContainers import FieldContainer, MeshTransversalField, MeshElectricField, RegularTransversalField, RegularElectricField, Domains
-from .FourierTransforms import *
+from .FourierTransforms import FourierTransforms
 from .Dispersion import DispersionCurve, NonDispersive
 from .Materials import Material_n, Material
 

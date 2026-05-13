@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from abc import ABC, abstractmethod
 
-from .Constants import *
-from .Dispersion import *
+from .Constants import Constants
+from .Dispersion import DispersionCurve, CustomDispersion
 
 class Material(ABC): 
     @property
