@@ -11,9 +11,9 @@ from abc import ABC, abstractmethod
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from scipy.interpolate import RegularGridInterpolator, griddata
 
-from .Constants import Constants
+from .Constants import Constants, Defaults
 from .Materials import Material
-from .Miscellanea import Miscellanea, Defaults
+from .Miscellanea import Miscellanea
 
 class Domains(Enum): 
     X = 1
