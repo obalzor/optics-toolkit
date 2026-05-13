@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "optics-sim"
+version = "0.1.0"
+description = "A Python library for electromagnetic optics simulations."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Olga Baladron-Zorita" }
+]
+
+dependencies = [
+  "numpy",
+  "scipy",
+  "matplotlib", 
+  "abc", 
+  "mpl_toolkits", 
+  "enum"
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics"
+]
+
